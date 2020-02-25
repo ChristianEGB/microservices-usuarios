@@ -8,9 +8,7 @@ import org.springframework.data.rest.core.annotation.RestResource;
 
 import com.formacionbdi.springboot.app.usuarios.commons.entities.Usuario;
 
-
-
-@RepositoryRestResource(path = "usuarios")
+@RepositoryRestResource(path = "/usuarios")
 public interface IUsuarioDao extends PagingAndSortingRepository<Usuario, Long>{
 	
 	@RestResource(path = "buscar-username")
