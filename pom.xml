@@ -22,8 +22,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.formacionbdi.springboot.app.usuarios.commons</groupId>
-			<artifactId>microservices-usuarios-commons</artifactId>
+			<groupId>com.formacionbdi.springboot.app.commons.usuarios</groupId>
+			<artifactId>microservices-commons-usuarios</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

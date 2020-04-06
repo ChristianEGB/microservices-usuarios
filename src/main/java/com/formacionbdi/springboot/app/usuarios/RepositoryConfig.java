@@ -4,8 +4,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 
-import com.formacionbdi.springboot.app.usuarios.commons.entities.Role;
-import com.formacionbdi.springboot.app.usuarios.commons.entities.Usuario;
+import com.formacionbdi.springboot.app.commons.usuarios.entities.Role;
+import com.formacionbdi.springboot.app.commons.usuarios.entities.Usuario;
+
 
 
 @Configuration
